@@ -5,17 +5,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:paddingVertical="10dp"
     app:cardUseCompatPadding="true"
     app:cardCornerRadius="3dp"
+    android:foreground="?android:attr/selectableItemBackground"
     >
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="8dp"
-        android:background="@color/white"
-        android:foreground="?android:attr/selectableItemBackground"
-        android:paddingTop="8dp">
+        android:background="@color/white">
 
         <com.google.android.material.imageview.ShapeableImageView
             android:id="@+id/title_image"
@@ -24,6 +24,8 @@
             android:adjustViewBounds="true"
             android:scaleType="centerCrop"
             android:src="@drawable/a"
+            android:paddingVertical="5dp"
+            android:paddingHorizontal="5dp"
             app:layout_constraintBottom_toTopOf="@+id/guideline3"
             app:layout_constraintEnd_toStartOf="@+id/guideline2"
             app:layout_constraintStart_toStartOf="parent"
