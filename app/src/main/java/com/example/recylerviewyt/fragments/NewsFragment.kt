@@ -6,7 +6,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.activityViewModels
-import com.example.recylerviewyt.R
 import com.example.recylerviewyt.adapter.MainAdapter
 import com.example.recylerviewyt.databinding.FragmentNewsBinding
 import com.example.recylerviewyt.models.TextViewModel
